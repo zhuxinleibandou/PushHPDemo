@@ -27,11 +27,11 @@
 
 
 -(BOOL)shouldAutorotate{
-    return [self.topViewController shouldAutorotate];
+    return self.topViewController.shouldAutorotate;
 }
 //支持的方向
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return [self.topViewController supportedInterfaceOrientations];;
+    return self.topViewController.supportedInterfaceOrientations;
 }
 
 @end

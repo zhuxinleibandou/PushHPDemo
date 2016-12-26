@@ -37,6 +37,7 @@
     [self.view addSubview:bt2];
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -54,7 +55,7 @@
 //是否可以旋转
 - (BOOL)shouldAutorotate
 {
-    return false;
+    return YES;
 }
 //支持的方向
 -(UIInterfaceOrientationMask)supportedInterfaceOrientations
